@@ -4,8 +4,11 @@ import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 
+// Если при подключении библиотеки возникает ошибка, то проделать следующие действия: File -> Project Structures -> Global libraries ( или ctrl + alt + shift + s)
+// Дальше жмём "+" и в New global library выбираем Java и указываем путь до jfreesvg-3.4.jar (он в проекте в папке lib), жмём OK и Apply.
 import org.jfree.graphics2d.svg.SVGGraphics2D;
 import org.jfree.graphics2d.svg.SVGUtils;
+
 import ru.vsu.cs.util.DrawUtils;
 
 /**
